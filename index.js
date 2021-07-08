@@ -20,19 +20,19 @@ event.on("Checkpage",(sc, msg) => {
 
 event.emit("Checkpage", 200, "ok");
 
-// event.on("SayMyname", () => {
-//     console.log(" Your name is Ravi");
-// });
+event.on("SayMyname", () => {
+    console.log(" Your name is Ravi");
+});
 
-// event.on("SayMyname", () => {
-//     console.log(" Your name is Prajapati");
-// });
+event.on("SayMyname", () => {
+    console.log(" Your name is Prajapati");
+});
 
-// event.on("SayMyname", () => {
-//     console.log(" Your name is botad");
-// });
+event.on("SayMyname", () => {
+    console.log(" Your name is botad");
+});
 
-// event.emit("SayMyname");
+event.emit("SayMyname");
 
 
 
